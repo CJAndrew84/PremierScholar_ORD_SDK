@@ -8,6 +8,14 @@
 
 ### Repo Structure
 
+### Dependencies
+
+### Key-Ins
+
+### Ownership
+
+### Version
+
 ## Useful links
 
 ### OpenRoads Designer SDK
