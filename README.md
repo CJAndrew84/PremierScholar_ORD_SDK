@@ -42,16 +42,6 @@ For the purposes of the demonstration, I created a simple the following code
             // do soemthing with the list
 ```
 
-### Repo Structure
-
-### Dependencies
-
-### Key-Ins
-
-### Ownership
-
-### Version
-
 ## Useful links
 
 ### OpenRoads Designer SDK
