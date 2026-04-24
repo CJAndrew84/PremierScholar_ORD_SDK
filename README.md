@@ -7,8 +7,33 @@ https://github.com/CJAndrew84/PremierScholar_ORD_SDK/blob/main/OpenRoads%20SDK.p
 ## Demo
 
 ### Problem Statement
+How to read the Civil Object Model in C# and start to build knowledge of whats possible
 
 ### Solution
+Using the Project Templates provided by Bentley in the ORD SDK, create a new project. 
+The template contains 3 keyins and an auto run method
+
+For the purposes of the demonstration, I created a simple the following code
+
+```csharp
+            Bentley.CifNET.SDK.Edit.ConsensusConnectionEdit sdkCon = Bentley.CifNET.SDK.Edit.ConsensusConnectionEdit.GetActive();
+
+            Bentley.CifNET.GeometryModel.SDK.GeometricModel geomModel = sdkCon.GetActiveGeometricModel();
+
+            List<CorridorObject> corridorObjects = new List<CorridorObject>();
+
+            foreach (Corridor corridor in geomModel.Corridors)
+            {
+                CorridorObject corridorObject = new CorridorObject()
+                {
+                    Name = corridor.Name,
+                    Description = corridor.FeatureName,
+                    AlignmentName = corridor.CorridorAlignment.Name
+                };
+                corridorObjects.Add(corridorObject);
+            }
+
+```
 
 ### Repo Structure
 
