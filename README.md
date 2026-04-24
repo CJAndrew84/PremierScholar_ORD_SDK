@@ -1,5 +1,9 @@
 # PremierScholar_ORD_SDK
 
+## Presentation
+**OpenRoads SDK - Unlocking your Superpower** https://github.com/CJAndrew84/PremierScholar_ORD_SDK/blob/main/OpenRoads%20SDK.pptx
+https://github.com/CJAndrew84/PremierScholar_ORD_SDK/blob/main/OpenRoads%20SDK.pdf
+
 ## Demo
 
 ### Problem Statement
