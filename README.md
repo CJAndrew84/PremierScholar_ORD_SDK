@@ -16,23 +16,30 @@ The template contains 3 keyins and an auto run method
 For the purposes of the demonstration, I created a simple the following code
 
 ```csharp
+            \\ Create a connection to the civil model in the active dgn
             Bentley.CifNET.SDK.Edit.ConsensusConnectionEdit sdkCon = Bentley.CifNET.SDK.Edit.ConsensusConnectionEdit.GetActive();
 
+            \\ Get the Active Geometeric Model in the DGN
             Bentley.CifNET.GeometryModel.SDK.GeometricModel geomModel = sdkCon.GetActiveGeometricModel();
 
+            \\ Object Orientated C# List of Corridor Objects (built in the solution)
             List<CorridorObject> corridorObjects = new List<CorridorObject>();
 
+            \\ enumerate through all the Corridor objects in the Geometric Model
             foreach (Corridor corridor in geomModel.Corridors)
             {
+                \\ Create a new CorridorObject to store data in        
                 CorridorObject corridorObject = new CorridorObject()
                 {
+                    \\ Fill out the Object Properties from data in the Civil Model
                     Name = corridor.Name,
                     Description = corridor.FeatureName,
                     AlignmentName = corridor.CorridorAlignment.Name
                 };
+                Add Corridor Object to List       
                 corridorObjects.Add(corridorObject);
             }
-
+            \\ do soemthing with the list
 ```
 
 ### Repo Structure
