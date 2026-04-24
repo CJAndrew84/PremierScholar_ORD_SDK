@@ -1,0 +1,6 @@
+C:\Program Files\Bentley\OpenRoads Designer 2025.00\OpenRoadsDesigner\Mdlapps\OpenRoadsDesignerAddIn1.dll
+C:\Program Files\Bentley\OpenRoads Designer 2025.00\OpenRoadsDesigner\Mdlapps\OpenRoadsDesignerAddIn1.pdb
+C:\Repos\PremierScholar_ORD_SDK\OpenRoadsDesignerAddIn1\bin\x64\Debug\OpenRoadsDesignerAddIn1.csproj.AssemblyReference.cache
+C:\Repos\PremierScholar_ORD_SDK\OpenRoadsDesignerAddIn1\bin\x64\Debug\OpenRoadsDesignerAddIn1.csproj.CoreCompileInputs.cache
+C:\Repos\PremierScholar_ORD_SDK\OpenRoadsDesignerAddIn1\bin\x64\Debug\OpenRoadsDesignerAddIn1.dll
+C:\Repos\PremierScholar_ORD_SDK\OpenRoadsDesignerAddIn1\bin\x64\Debug\OpenRoadsDesignerAddIn1.pdb

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ReferencePath>C:\Program Files\Bentley\OpenRoads Designer 2025.00\OpenRoadsDesigner\;C:\Program Files\Bentley\OpenRoads Designer 2025.00\OpenRoadsDesigner\Assemblies\;C:\Program Files\Bentley\OpenRoads Designer 2025.00\OpenRoadsDesigner\Assemblies\ECFramework\;C:\Program Files\Bentley\OpenRoads Designer 2025.00\OpenRoadsDesigner\Cif\</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Program Files\Bentley\OpenRoads Designer 2025.00\OpenRoadsDesigner\OpenRoadsDesigner.exe</StartProgram>
+  </PropertyGroup>
+</Project>

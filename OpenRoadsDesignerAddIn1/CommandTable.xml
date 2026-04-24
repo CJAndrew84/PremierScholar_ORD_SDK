@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<KeyinTree xmlns="http://www.bentley.com/schemas/1.0/MicroStation/AddIn/KeyinTree.xsd">
+
+    <!-- Required | Root Table (YourAddInName) -->
+    <RootKeyinTable ID="root">
+        <Keyword SubtableRef="Commands" CommandWord="YourAddInName">
+            <Options Required="true" />
+        </Keyword>
+    </RootKeyinTable>
+
+    <SubKeyinTables>
+        <!--  Secondary Command Table (MAIN _____ )-->
+        <KeyinTable ID="Commands">
+            <Keyword SubtableRef="SecondCmd" CommandWord="YourCommandGroup">
+                <Options Required="true" />
+            </Keyword>
+			<!-- Report Table (YourAddInName YourDirectCommand)  -->
+			<Keyword CommandWord="YourDirectCommand" />
+        </KeyinTable>
+
+        <!-- Report Table (YourAddInName YourCommandGroup _____ )  -->
+        <KeyinTable ID="SecondCmd">
+            <Keyword CommandWord="YourCommand1" />
+            <Keyword CommandWord="YourCommand2" />
+        </KeyinTable>
+    </SubKeyinTables>
+		
+
+    <!-- Maps Keyin Commands to Functions in Keyin.cs File -->
+    <KeyinHandlers>
+        <KeyinHandler Keyin="YourAddInName YourCommandGroup YourCommand1"        Function="OpenRoadsDesignerAddIn1.Keyin.YourCommand1Start"/>
+        <KeyinHandler Keyin="YourAddInName YourCommandGroup YourCommand2"        Function="OpenRoadsDesignerAddIn1.Keyin.YourCommand2Start"/>
+		<KeyinHandler Keyin="YourAddInName YourDirectCommand"					 Function="OpenRoadsDesignerAddIn1.Keyin.YourDirectCommandStart"/>
+    </KeyinHandlers>
+
+</KeyinTree>
+
