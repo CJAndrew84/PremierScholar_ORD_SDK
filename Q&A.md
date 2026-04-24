@@ -1,11 +1,11 @@
-OpenRoads SDK – Q&A
+# OpenRoads SDK – Q&A
 
 Based on Premier Scholar Masterclass: OpenRoads SDK – Unlocking Your Superpowers
 
 
 ---
 
-Q1. What is the OpenRoads SDK?
+## Q1. What is the OpenRoads SDK?
 
 The OpenRoads SDK (Software Developer Kit) is Bentley’s development framework that allows users to build custom tools, commands, integrations, and automation directly against OpenRoads Designer and the wider Bentley ecosystem.
 
@@ -37,7 +37,7 @@ It enables organisations to create tailored solutions instead of waiting for sta
 
 ---
 
-Q2. What are the two main SDK development approaches?
+## Q2. What are the two main SDK development approaches?
 
 Managed SDK
 
@@ -91,7 +91,7 @@ This is significantly more advanced.
 
 ---
 
-Q3. Why should someone explore the SDK?
+## Q3. Why should someone explore the SDK?
 
 The SDK helps solve problems where standard configuration is not enough.
 
@@ -121,7 +121,7 @@ It allows teams to bridge gaps in product functionality rather than waiting for 
 
 ---
 
-Q4. Where do you get the SDK?
+## Q4. Where do you get the SDK?
 
 The SDK is available through:
 
@@ -153,7 +153,7 @@ This is critical before development starts.
 
 ---
 
-Q5. What should beginners learn first?
+## Q5. What should beginners learn first?
 
 Before touching the SDK, beginners should focus on:
 
@@ -199,7 +199,7 @@ Small wins build understanding.
 
 ---
 
-Q6. What is object-oriented programming in simple terms?
+## Q6. What is object-oriented programming in simple terms?
 
 Object-oriented programming (OOP) allows you to define your own data structures using “objects.”
 
@@ -231,7 +231,7 @@ Think of it as creating your own civil schema outside the DGN.
 
 ---
 
-Q7. Why use Visual Studio instead of VS Code?
+## Q7. Why use Visual Studio instead of VS Code?
 
 VS Code
 
@@ -268,7 +268,7 @@ Visual Studio provides the professional development environment needed for SDK w
 
 ---
 
-Q8. What are breakpoints and debugging?
+## Q8. What are breakpoints and debugging?
 
 Breakpoints allow you to stop code while it is running and inspect:
 
@@ -307,7 +307,7 @@ Debugging is one of the most important skills in SDK development.
 
 ---
 
-Q9. Can the SDK read live data from a DGN model?
+## Q9. Can the SDK read live data from a DGN model?
 
 Yes.
 
@@ -341,7 +341,7 @@ This is the foundation of most custom tools.
 
 ---
 
-Q10. Example: What was built for Navisworks + ProjectWise?
+## Q10. Example: What was built for Navisworks + ProjectWise?
 
 A custom ribbon integration was built that allowed:
 
@@ -365,7 +365,7 @@ It turned Navisworks into a proper managed ProjectWise workflow.
 
 ---
 
-Q11. Example: What was built for Event Points?
+## Q11. Example: What was built for Event Points?
 
 Creating event points manually is slow and painful.
 
@@ -385,7 +385,7 @@ This is exactly where SDK value becomes obvious.
 
 ---
 
-Q12. Example: What was built for Cross Sections?
+## Q12. Example: What was built for Cross Sections?
 
 Generative Components nodes were created to:
 
@@ -412,7 +412,7 @@ This solved limitations in standard OpenRoads section workflows.
 
 ---
 
-Q13. Should we use SDK or VBA or Python?
+## Q13. Should we use SDK or VBA or Python?
 
 VBA
 
@@ -468,7 +468,7 @@ SDK is the professional route.
 
 ---
 
-Q14. Can Python still work with OpenRoads civil data?
+## Q14. Can Python still work with OpenRoads civil data?
 
 Yes — but not natively.
 
@@ -490,7 +490,7 @@ It is possible, but must be handled carefully.
 
 ---
 
-Q15. When should you NOT build an SDK tool?
+## Q15. When should you NOT build an SDK tool?
 
 Do NOT build when:
 
@@ -520,7 +520,7 @@ The real question is:
 
 ---
 
-Q16. Why is deployment strategy important?
+## Q16. Why is deployment strategy important?
 
 A tool that works only on one machine is not a real enterprise solution.
 
@@ -546,7 +546,7 @@ Without deployment planning, good tools die quickly.
 
 ---
 
-Q17. Who owns custom SDK tools?
+## Q17. Who owns custom SDK tools?
 
 Usually:
 
@@ -572,7 +572,7 @@ Ownership matters.
 
 ---
 
-Q18. Why is GitHub important?
+## Q18. Why is GitHub important?
 
 GitHub provides:
 
@@ -598,7 +598,7 @@ GitHub is not optional for serious development.
 
 ---
 
-Q19. How should AI be used for SDK development?
+## Q19. How should AI be used for SDK development?
 
 AI is helpful — but dangerous without understanding.
 
@@ -635,7 +635,7 @@ AI should accelerate expertise, not replace it.
 
 ---
 
-Q20. Final advice for users starting with SDK?
+## Q20. Final advice for users starting with SDK?
 
 Do not be scared of it.
 
