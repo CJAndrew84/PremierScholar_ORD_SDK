@@ -2,7 +2,7 @@
   <Configurations>
     <Platform Name="x64" />
   </Configurations>
-  <Project Path="OpenRoadsDesignerAddIn1.csproj">
+  <Project Path="OpenRoadsDesignerAddIn1.csproj" Id="d90b5559-fe18-46a3-90dc-100d1b7511ff">
     <Platform Project="x64" />
   </Project>
 </Solution>

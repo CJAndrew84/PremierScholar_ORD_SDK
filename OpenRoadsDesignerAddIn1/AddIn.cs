@@ -30,6 +30,8 @@ namespace OpenRoadsDesignerAddIn1
 
             Bentley.CifNET.GeometryModel.SDK.GeometricModel geomModel = sdkCon.GetActiveGeometricModel();
 
+            var GeomModels = sdkCon.GetAllGeometricModels();
+
             List<CorridorObject> corridorObjects = new List<CorridorObject>();
 
             foreach (Corridor corridor in geomModel.Corridors)
@@ -43,7 +45,7 @@ namespace OpenRoadsDesignerAddIn1
                 corridorObjects.Add(corridorObject);
             }
 
-            File.WriteAllLines("CorridorObjects.csv", corridorObjects.Select(co => $"{co.Name},{co.Description},{co.AlignmentName}"));
+            //File.WriteAllLines("CorridorObjects.csv", corridorObjects.Select(co => $"{co.Name},{co.Description},{co.AlignmentName}"));
 
             return 0;
         }
